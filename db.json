@@ -1,0 +1,65 @@
+{
+  "consults": {
+    "orders": [],
+    "samples": [],
+    "clients": []
+  },
+  "samples": [
+    {
+      "id": 45654,
+      "userId": 1,
+      "orderId": 123456
+    }
+  ],
+  "orders": [
+    {
+      "id": 123456,
+      "userId": 1
+    }
+  ],
+  "clients": [
+    {
+      "id": 1,
+      "name": "Maria"
+    }
+  ],
+  "user": {
+    "id": 1,
+    "name": "Admin",
+    "unitId": 1
+  },
+  "units": [
+    {
+      "id": 1,
+      "name": "07 PAM"
+    },
+    {
+      "id": 2,
+      "name": "03 PE"
+    },
+    {
+      "id": 3,
+      "name": "44 PXII"
+    },
+    {
+      "id": 4,
+      "name": "47 PDII"
+    },
+    {
+      "id": 5,
+      "name": "48 PLTO"
+    },
+    {
+      "id": 8,
+      "name": "49 QWR"
+    },
+    {
+      "id": 9,
+      "name": "50 AWE"
+    },
+    {
+      "id": 10,
+      "name": "51 BKS"
+    }
+  ]
+}
