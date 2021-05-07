@@ -62,5 +62,39 @@
       "id": 10,
       "name": "51 BKS"
     }
+  ],
+  "cals": [
+    {
+      "id": 1,
+      "name": "CAL 01"
+    },
+    {
+      "id": 2,
+      "name": "CAL 02"
+    },
+    {
+      "id": 3,
+      "name": "CAL 03"
+    },
+    {
+      "id": 4,
+      "name": "CAL 04"
+    },
+    {
+      "id": 5,
+      "name": "CAL 05"
+    },
+    {
+      "id": 8,
+      "name": "CAL 08"
+    },
+    {
+      "id": 9,
+      "name": "CAL 09"
+    },
+    {
+      "id": 10,
+      "name": "CAL 10"
+    }
   ]
 }
