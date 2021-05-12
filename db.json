@@ -14,8 +14,58 @@
   "orders": [
     {
       "id": 123,
+      "clientId": 1,
       "orderNumber": 1234567,
-      "userId": 1
+      "unit": "AIM",
+      "orderDate": "17/07/2020",
+      "age": "38",
+      "situation": "Ativo",
+      "destiny": "NTBH",
+      "pdfLink": "https://americalatina.dint.fgv.br/sites/americalatina.dint.fgv.br/files/teste33.pdf"
+    },
+    {
+      "id": 456,
+      "clientId": 1,
+      "orderNumber": 1234568,
+      "unit": "AIM",
+      "orderDate": "17/07/2020",
+      "age": "38",
+      "situation": "Ativo",
+      "destiny": "NTBH",
+      "pdfLink": "https://americalatina.dint.fgv.br/sites/americalatina.dint.fgv.br/files/teste33.pdf"
+    },
+    {
+      "id": 789,
+      "clientId": 1,
+      "orderNumber": 1234569,
+      "unit": "AIM",
+      "orderDate": "17/07/2020",
+      "age": "38",
+      "situation": "Cancelado",
+      "destiny": "NTBH",
+      "pdfLink": "https://americalatina.dint.fgv.br/sites/americalatina.dint.fgv.br/files/teste33.pdf"
+    },
+    {
+      "id": 159,
+      "clientId": 1,
+      "orderNumber": 1234510,
+      "unit": "AIM",
+      "orderDate": "17/07/2020",
+      "age": "38",
+      "situation": "Ativo",
+      "destiny": "NTBH",
+      "pdfLink": "https://americalatina.dint.fgv.br/sites/americalatina.dint.fgv.br/files/teste33.pdf"
+    },
+    {
+      "id": 753,
+      "clientId": 2,
+      "orderNumber": 1234511,
+      "unit": "AIM",
+      "orderDate": "17/07/2020",
+      "age": "38",
+      "situation": "Cancelado",
+      "destiny": "NTBH",
+      "pdfLink": "https://americalatina.dint.fgv.br/sites/americalatina.dint.fgv.br/files/teste33.pdf"
     }
   ],
   "clients": [
@@ -25,7 +75,10 @@
       "code": 1234567,
       "cpf": "078.895.654-89",
       "age": "49",
-      "birthDate": "02/05/1970"
+      "phone": "(99) 9999-9191",
+      "birthDate": "02/05/1970",
+      "clientCode": "1500248489",
+      "address": "Rua A"
     },
     {
       "id": 2,
@@ -33,7 +86,10 @@
       "code": 7654321,
       "cpf": "078.895.654-90",
       "age": "70",
-      "birthDate": "20/08/1951"
+      "phone": "(99) 9999-9292",
+      "clientCode": "1500248480",
+      "birthDate": "20/08/1951",
+      "address": "Rua B"
     }
   ],
   "user": {
