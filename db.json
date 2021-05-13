@@ -21,7 +21,7 @@
       "age": "38",
       "situation": "Ativo",
       "destiny": "NTBH",
-      "pdfLink": "https://americalatina.dint.fgv.br/sites/americalatina.dint.fgv.br/files/teste33.pdf"
+      "pdf": "https://americalatina.dint.fgv.br/sites/americalatina.dint.fgv.br/files/teste33.pdf"
     },
     {
       "id": 456,
@@ -32,7 +32,7 @@
       "age": "38",
       "situation": "Ativo",
       "destiny": "NTBH",
-      "pdfLink": "https://americalatina.dint.fgv.br/sites/americalatina.dint.fgv.br/files/teste33.pdf"
+      "pdf": "https://americalatina.dint.fgv.br/sites/americalatina.dint.fgv.br/files/teste33.pdf"
     },
     {
       "id": 789,
@@ -42,8 +42,7 @@
       "orderDate": "17/07/2020",
       "age": "38",
       "situation": "Cancelado",
-      "destiny": "NTBH",
-      "pdfLink": "https://americalatina.dint.fgv.br/sites/americalatina.dint.fgv.br/files/teste33.pdf"
+      "destiny": "NTBH"
     },
     {
       "id": 159,
@@ -54,7 +53,7 @@
       "age": "38",
       "situation": "Ativo",
       "destiny": "NTBH",
-      "pdfLink": "https://americalatina.dint.fgv.br/sites/americalatina.dint.fgv.br/files/teste33.pdf"
+      "pdf": "https://americalatina.dint.fgv.br/sites/americalatina.dint.fgv.br/files/teste33.pdf"
     },
     {
       "id": 753,
@@ -64,8 +63,7 @@
       "orderDate": "17/07/2020",
       "age": "38",
       "situation": "Cancelado",
-      "destiny": "NTBH",
-      "pdfLink": "https://americalatina.dint.fgv.br/sites/americalatina.dint.fgv.br/files/teste33.pdf"
+      "destiny": "NTBH"
     },
     {
       "id": 852,
@@ -75,8 +73,7 @@
       "orderDate": "17/07/2020",
       "age": "38",
       "situation": "Cancelado",
-      "destiny": "NTBH",
-      "pdfLink": "https://americalatina.dint.fgv.br/sites/americalatina.dint.fgv.br/files/teste33.pdf"
+      "destiny": "NTBH"
     },
     {
       "id": 951,
@@ -86,8 +83,7 @@
       "orderDate": "17/07/2020",
       "age": "38",
       "situation": "Cancelado",
-      "destiny": "NTBH",
-      "pdfLink": "https://americalatina.dint.fgv.br/sites/americalatina.dint.fgv.br/files/teste33.pdf"
+      "destiny": "NTBH"
     }
   ],
   "clients-consult": [
