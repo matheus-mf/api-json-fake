@@ -11,7 +11,7 @@
       "orderId": 123456
     }
   ],
-  "orders": [
+  "orders-history": [
     {
       "id": 123,
       "clientId": 1,
@@ -86,6 +86,286 @@
       "destiny": "NTBH"
     }
   ],
+  "orders": [
+    {
+      "id": 123,
+      "clientId": 1,
+      "orderNumber": 1234567,
+      "origin": "Agendamento web",
+      "unit": "AIM",
+      "orderDate": "17/07/2020",
+      "attendant": "Renata Gomes Santos",
+      "situation": "Ativo",
+      "status": "Aguardando",
+      "requestedResultByWeb": true,
+      "orderNumberInConveniado": "1234566549",
+      "contractBidding": "Bla bla bla",
+      "doctors": [
+        {
+          "id": 1,
+          "name": "Theodoro De Moraes Seixas Neto",
+          "crm": "012880/MG"
+        }
+      ]
+    },
+    {
+      "id": 456,
+      "clientId": 1,
+      "orderNumber": 1234568,
+      "origin": "Agendamento web",
+      "unit": "AIM",
+      "orderDate": "17/07/2020",
+      "attendant": "Renata Gomes Santos",
+      "situation": "Ativo",
+      "status": "Urgentíssimo",
+      "requestedResultByWeb": true,
+      "orderNumberInConveniado": "1321546578",
+      "contractBidding": "Bla bla bla",
+      "doctors": [
+        {
+          "id": 1,
+          "name": "Theodoro De Moraes Seixas Neto",
+          "crm": "012880/MG"
+        },
+        {
+          "id": 2,
+          "name": "Mário Sampaio",
+          "crm": "918277/SP"
+        }
+      ]
+    },
+    {
+      "id": 789,
+      "clientId": 1,
+      "orderNumber": 1234569,
+      "origin": "Agendamento web",
+      "unit": "AIM",
+      "orderDate": "17/07/2020",
+      "attendant": "Renata Gomes Santos",
+      "situation": "Cancelado",
+      "status": "Normal",
+      "requestedResultByWeb": true,
+      "cancellationDetails": {
+        "id": "123548",
+        "reason": "11 - Pedido duplicado",
+        "nameUserMadeCancellation": "BPlus",
+        "cancellationDate": "2021-05-17T19:30:37.598Z"
+      },
+      "doctors": [
+        {
+          "id": 1,
+          "name": "Theodoro De Moraes Seixas Neto",
+          "crm": "012880/MG"
+        },
+        {
+          "id": 2,
+          "name": "Mário Sampaio",
+          "crm": "918277/SP"
+        }
+      ]
+    },
+    {
+      "id": 159,
+      "clientId": 1,
+      "orderNumber": 1234510,
+      "origin": "Agendamento web",
+      "unit": "AIM",
+      "orderDate": "17/07/2020",
+      "attendant": "Renata Gomes Santos",
+      "situation": "Ativo",
+      "status": "CAC",
+      "requestedResultByWeb": true,
+      "orderNumberInConveniado": "357158624",
+      "contractBidding": "Bla bla bla",
+      "doctors": [
+        {
+          "id": 1,
+          "name": "Theodoro De Moraes Seixas Neto",
+          "crm": "012880/MG"
+        },
+        {
+          "id": 2,
+          "name": "Mário Sampaio",
+          "crm": "918277/SP"
+        }
+      ]
+    },
+    {
+      "id": 753,
+      "clientId": 2,
+      "orderNumber": 1234511,
+      "origin": "Agendamento web",
+      "unit": "AIM",
+      "orderDate": "17/07/2020",
+      "attendant": "Renata Gomes Santos",
+      "situation": "Ativo",
+      "status": "Normal",
+      "requestedResultByWeb": true,
+      "orderNumberInConveniado": "987159562",
+      "contractBidding": "Bla bla bla",
+      "doctors": [
+        {
+          "id": 2,
+          "name": "Mário Sampaio",
+          "crm": "918277/SP"
+        }
+      ]
+    },
+    {
+      "id": 852,
+      "clientId": 1,
+      "orderNumber": 1234515,
+      "origin": "Agendamento web",
+      "unit": "AIM",
+      "orderDate": "17/07/2020",
+      "attendant": "Renata Gomes Santos",
+      "situation": "Ativo",
+      "status": "Normal",
+      "requestedResultByWeb": true,
+      "orderNumberInConveniado": "321654987",
+      "contractBidding": "Bla bla bla",
+      "doctors": [
+        {
+          "id": 1,
+          "name": "Theodoro De Moraes Seixas Neto",
+          "crm": "012880/MG"
+        },
+        {
+          "id": 2,
+          "name": "Mário Sampaio",
+          "crm": "918277/SP"
+        }
+      ]
+    },
+    {
+      "id": 951,
+      "clientId": 1,
+      "orderNumber": 1234514,
+      "unit": "AIM",
+      "orderDate": "17/07/2020",
+      "attendant": "Renata Gomes Santos",
+      "situation": "Ativo",
+      "status": "Normal",
+      "requestedResultByWeb": false,
+      "doctors": [
+        {
+          "id": 1,
+          "name": "Theodoro De Moraes Seixas Neto",
+          "crm": "012880/MG"
+        },
+        {
+          "id": 2,
+          "name": "Mário Sampaio",
+          "crm": "918277/SP"
+        },
+        {
+          "id": 3,
+          "name": "Walace Alves",
+          "crm": "12345/MT"
+        }
+      ]
+    }
+  ],
+  "orders-client": [
+    {
+      "id": 1,
+      "orderId": 123,
+      "name": "Maria Da Silva",
+      "gender": "Feminino",
+      "clientCode": 1234567,
+      "age": "49",
+      "healthInsurance": {
+        "name": "0123 - HP.ATEND.FUNCIONARIO",
+        "nameExecutive": "John Doe",
+        "phone": "(99) 9999-9191",
+        "email": "user@example.com"
+      }
+    },
+    {
+      "id": 2,
+      "orderId": 456,
+      "name": "Maria Da Silva",
+      "gender": "Feminino",
+      "clientCode": 1234567,
+      "age": "49",
+      "healthInsurance": {
+        "name": "0123 - HP.ATEND.FUNCIONARIO",
+        "nameExecutive": "John Doe",
+        "phone": "(99) 9999-9191",
+        "email": "user@example.com"
+      }
+    },
+    {
+      "id": 3,
+      "orderId": 789,
+      "name": "Maria Da Silva",
+      "gender": "Feminino",
+      "clientCode": 1234567,
+      "age": "49",
+      "healthInsurance": {
+        "name": "0123 - HP.ATEND.FUNCIONARIO",
+        "nameExecutive": "John Doe",
+        "phone": "(99) 9999-9191",
+        "email": "user@example.com"
+      }
+    },
+    {
+      "id": 4,
+      "orderId": 159,
+      "name": "Maria Da Silva",
+      "gender": "Feminino",
+      "clientCode": 1234567,
+      "age": "49",
+      "healthInsurance": {
+        "name": "0123 - HP.ATEND.FUNCIONARIO",
+        "nameExecutive": "John Doe",
+        "phone": "(99) 9999-9191",
+        "email": "user@example.com"
+      }
+    },
+    {
+      "id": 5,
+      "orderId": 753,
+      "name": "Maria Da Silva Pereira",
+      "gender": "Feminino",
+      "clientCode": 7654321,
+      "age": "70",
+      "healthInsurance": {
+        "name": "0123 - HP.ATEND.FUNCIONARIO",
+        "nameExecutive": "John Doe",
+        "phone": "(99) 9999-9191",
+        "email": "user@example.com"
+      }
+    },
+    {
+      "id": 6,
+      "orderId": 852,
+      "name": "Maria Da Silva",
+      "gender": "Feminino",
+      "clientCode": 1234567,
+      "age": "49",
+      "healthInsurance": {
+        "name": "0123 - HP.ATEND.FUNCIONARIO",
+        "nameExecutive": "John Doe",
+        "phone": "(99) 9999-9191",
+        "email": "user@example.com"
+      }
+    },
+    {
+      "id": 7,
+      "orderId": 951,
+      "name": "Maria Da Silva",
+      "gender": "Feminino",
+      "clientCode": 1234567,
+      "age": "49",
+      "healthInsurance": {
+        "name": "0123 - HP.ATEND.FUNCIONARIO",
+        "nameExecutive": "John Doe",
+        "phone": "(99) 9999-9191",
+        "email": "user@example.com"
+      }
+    }
+  ],
   "clients-consult": [
     {
       "id": 1,
@@ -110,6 +390,7 @@
       "phone": "(99) 9999-9191",
       "birthDate": "02/05/1970",
       "clientCode": "1500248489",
+      "gender": "Feminino",
       "address": "Rua A"
     },
     {
@@ -121,6 +402,7 @@
       "phone": "(99) 9999-9292",
       "clientCode": "1500248480",
       "birthDate": "20/08/1951",
+      "gender": "Feminino",
       "address": "Rua B"
     }
   ],
