@@ -1,102 +1,49 @@
 {
-  "consults": {
-    "orders": [],
-    "samples": [],
-    "clients": []
+  "user": {
+    "id": 1,
+    "name": "Admin",
+    "unitId": 1
   },
-  "samples": [
+  "clients-consult": [
     {
-      "id": "039401302803",
-      "userId": 1,
-      "orderId": 123456
+      "id": "1500248470",
+      "name": "Maria Da Silva",
+      "cpf": "078.895.654-89",
+      "age": "49"
+    },
+    {
+      "id": "1500248480",
+      "name": "Maria Da Silva Pereira",
+      "cpf": "078.895.654-90",
+      "age": "70"
     }
   ],
-  "orders-history": [
+  "clients": [
     {
-      "id": 123,
-      "clientId": 1,
-      "orderNumber": 1234567,
-      "unit": "AIM",
-      "orderDate": "17/07/2020",
-      "age": "38",
-      "situation": "Ativo",
-      "sectors": ["NTO-DLE-SP" ,"Linha Vermelha"],
-      "destiny": "NTBH",
-      "pdf": "https://americalatina.dint.fgv.br/sites/americalatina.dint.fgv.br/files/teste33.pdf"
+      "id": "1500248470",
+      "name": "Maria Da Silva",
+      "cpf": "078.895.654-89",
+      "age": "49",
+      "phone": "(99) 9999-9191",
+      "birthDate": "02/05/1970",
+      "gender": "Feminino",
+      "address": "Rua A"
     },
     {
-      "id": 456,
-      "clientId": 1,
-      "orderNumber": 1234568,
-      "unit": "AIM",
-      "orderDate": "17/07/2020",
-      "age": "38",
-      "situation": "Ativo",
-      "sectors": ["NTO-DLE-SP" ,"Linha Vermelha"],
-      "destiny": "NTBH",
-      "pdf": "https://americalatina.dint.fgv.br/sites/americalatina.dint.fgv.br/files/teste33.pdf"
-    },
-    {
-      "id": 789,
-      "clientId": 1,
-      "orderNumber": 1234569,
-      "unit": "AIM",
-      "orderDate": "17/07/2020",
-      "age": "38",
-      "situation": "Cancelado",
-      "sectors": ["NTO-DLE-SP" ,"Linha Vermelha"],
-      "destiny": "NTBH"
-    },
-    {
-      "id": 159,
-      "clientId": 1,
-      "orderNumber": 1234510,
-      "unit": "AIM",
-      "orderDate": "17/07/2020",
-      "age": "38",
-      "situation": "Ativo",
-      "sectors": ["NTO-DLE-SP" ,"Linha Vermelha"],
-      "destiny": "NTBH",
-      "pdf": "https://americalatina.dint.fgv.br/sites/americalatina.dint.fgv.br/files/teste33.pdf"
-    },
-    {
-      "id": 753,
-      "clientId": 2,
-      "orderNumber": 1234511,
-      "unit": "AIM",
-      "orderDate": "17/07/2020",
-      "age": "38",
-      "situation": "Cancelado",
-      "sectors": ["NTO-DLE-SP" ,"Linha Vermelha"],
-      "destiny": "NTBH"
-    },
-    {
-      "id": 852,
-      "clientId": 1,
-      "orderNumber": 1234515,
-      "unit": "AIM",
-      "orderDate": "17/07/2020",
-      "age": "38",
-      "situation": "Cancelado",
-      "sectors": ["NTO-DLE-SP" ,"Linha Vermelha"],
-      "destiny": "NTBH"
-    },
-    {
-      "id": 951,
-      "clientId": 1,
-      "orderNumber": 1234514,
-      "unit": "AIM",
-      "orderDate": "17/07/2020",
-      "age": "38",
-      "situation": "Cancelado",
-      "sectors": ["NTO-DLE-SP" ,"Linha Vermelha"],
-      "destiny": "NTBH"
+      "id": "1500248480",
+      "name": "Maria Da Silva Pereira",
+      "cpf": "078.895.654-90",
+      "age": "70",
+      "phone": "(99) 9999-9292",
+      "birthDate": "20/08/1951",
+      "gender": "Feminino",
+      "address": "Rua B"
     }
   ],
   "orders": [
     {
       "id": 123,
-      "clientId": 1,
+      "clientId": "1500248470",
       "orderNumber": 1234567,
       "origin": "Agendamento web",
       "unit": "AIM",
@@ -117,7 +64,7 @@
     },
     {
       "id": 456,
-      "clientId": 1,
+      "clientId": "1500248470",
       "orderNumber": 1234568,
       "origin": "Agendamento web",
       "unit": "AIM",
@@ -143,7 +90,7 @@
     },
     {
       "id": 789,
-      "clientId": 1,
+      "clientId": "1500248470",
       "orderNumber": 1234569,
       "origin": "Agendamento web",
       "unit": "AIM",
@@ -173,7 +120,7 @@
     },
     {
       "id": 159,
-      "clientId": 1,
+      "clientId": "1500248470",
       "orderNumber": 1234510,
       "origin": "Agendamento web",
       "unit": "AIM",
@@ -199,7 +146,7 @@
     },
     {
       "id": 753,
-      "clientId": 2,
+      "clientId": "1500248480",
       "orderNumber": 1234511,
       "origin": "Agendamento web",
       "unit": "AIM",
@@ -220,7 +167,7 @@
     },
     {
       "id": 852,
-      "clientId": 1,
+      "clientId": "1500248470",
       "orderNumber": 1234515,
       "origin": "Agendamento web",
       "unit": "AIM",
@@ -246,7 +193,7 @@
     },
     {
       "id": 951,
-      "clientId": 1,
+      "clientId": "1500248470",
       "orderNumber": 1234514,
       "unit": "AIM",
       "orderDate": "17/07/2020",
@@ -275,11 +222,10 @@
   ],
   "orders-client": [
     {
-      "id": 1,
       "orderId": 123,
       "name": "Maria Da Silva",
       "gender": "Feminino",
-      "clientCode": 1234567,
+      "clientCode": "1500248470",
       "age": "49",
       "birthDate": "02/05/1970",
       "address": "Rua A",
@@ -297,11 +243,10 @@
       }
     },
     {
-      "id": 2,
       "orderId": 456,
       "name": "Maria Da Silva",
       "gender": "Feminino",
-      "clientCode": 1234567,
+      "clientCode": "1500248470",
       "age": "49",
       "birthDate": "02/05/1970",
       "address": "Rua A",
@@ -319,11 +264,10 @@
       }
     },
     {
-      "id": 3,
       "orderId": 789,
       "name": "Maria Da Silva",
       "gender": "Feminino",
-      "clientCode": 1234567,
+      "clientCode": "1500248470",
       "age": "49",
       "birthDate": "02/05/1970",
       "address": "Rua A",
@@ -341,11 +285,10 @@
       }
     },
     {
-      "id": 4,
       "orderId": 159,
       "name": "Maria Da Silva",
       "gender": "Feminino",
-      "clientCode": 1234567,
+      "clientCode": "1500248470",
       "age": "49",
       "birthDate": "02/05/1970",
       "address": "Rua A",
@@ -363,11 +306,10 @@
       }
     },
     {
-      "id": 5,
       "orderId": 753,
       "name": "Maria Da Silva Pereira",
       "gender": "Feminino",
-      "clientCode": 7654321,
+      "clientCode": "1500248480",
       "age": "70",
       "birthDate": "02/05/1970",
       "address": "Rua A",
@@ -385,11 +327,10 @@
       }
     },
     {
-      "id": 6,
       "orderId": 852,
       "name": "Maria Da Silva",
       "gender": "Feminino",
-      "clientCode": 1234567,
+      "clientCode": "1500248470",
       "age": "49",
       "birthDate": "02/05/1970",
       "address": "Rua A",
@@ -407,11 +348,10 @@
       }
     },
     {
-      "id": 7,
       "orderId": 951,
       "name": "Maria Da Silva",
       "gender": "Feminino",
-      "clientCode": 1234567,
+      "clientCode": "1500248470",
       "age": "49",
       "birthDate": "02/05/1970",
       "address": "Rua A",
@@ -429,51 +369,116 @@
       }
     }
   ],
-  "clients-consult": [
+  "orders-history": [
     {
-      "id": 1,
-      "name": "Maria Da Silva",
-      "cpf": "078.895.654-89",
-      "age": "49"
+      "id": 123,
+      "clientId": "1500248470",
+      "orderNumber": 1234567,
+      "unit": "AIM",
+      "orderDate": "17/07/2020",
+      "age": "38",
+      "situation": "Ativo",
+      "sectors": [
+        "NTO-DLE-SP",
+        "Linha Vermelha"
+      ],
+      "destiny": "NTBH",
+      "pdf": "https://americalatina.dint.fgv.br/sites/americalatina.dint.fgv.br/files/teste33.pdf"
     },
     {
-      "id": 2,
-      "name": "Maria Da Silva Pereira",
-      "cpf": "078.895.654-90",
-      "age": "70"
-    }
-  ],
-  "clients": [
-    {
-      "id": 1,
-      "name": "Maria Da Silva",
-      "code": 1234567,
-      "cpf": "078.895.654-89",
-      "age": "49",
-      "phone": "(99) 9999-9191",
-      "birthDate": "02/05/1970",
-      "clientCode": "1500248489",
-      "gender": "Feminino",
-      "address": "Rua A"
+      "id": 456,
+      "clientId": "1500248470",
+      "orderNumber": 1234568,
+      "unit": "AIM",
+      "orderDate": "17/07/2020",
+      "age": "38",
+      "situation": "Ativo",
+      "sectors": [
+        "NTO-DLE-SP",
+        "Linha Vermelha"
+      ],
+      "destiny": "NTBH",
+      "pdf": "https://americalatina.dint.fgv.br/sites/americalatina.dint.fgv.br/files/teste33.pdf"
     },
     {
-      "id": 2,
-      "name": "Maria Da Silva Pereira",
-      "code": 7654321,
-      "cpf": "078.895.654-90",
-      "age": "70",
-      "phone": "(99) 9999-9292",
-      "clientCode": "1500248480",
-      "birthDate": "20/08/1951",
-      "gender": "Feminino",
-      "address": "Rua B"
+      "id": 789,
+      "clientId": "1500248470",
+      "orderNumber": 1234569,
+      "unit": "AIM",
+      "orderDate": "17/07/2020",
+      "age": "38",
+      "situation": "Cancelado",
+      "sectors": [
+        "NTO-DLE-SP",
+        "Linha Vermelha"
+      ],
+      "destiny": "NTBH"
+    },
+    {
+      "id": 159,
+      "clientId": "1500248470",
+      "orderNumber": 1234510,
+      "unit": "AIM",
+      "orderDate": "17/07/2020",
+      "age": "38",
+      "situation": "Ativo",
+      "sectors": [
+        "NTO-DLE-SP",
+        "Linha Vermelha"
+      ],
+      "destiny": "NTBH",
+      "pdf": "https://americalatina.dint.fgv.br/sites/americalatina.dint.fgv.br/files/teste33.pdf"
+    },
+    {
+      "id": 753,
+      "clientId": "1500248480",
+      "orderNumber": 1234511,
+      "unit": "AIM",
+      "orderDate": "17/07/2020",
+      "age": "38",
+      "situation": "Cancelado",
+      "sectors": [
+        "NTO-DLE-SP",
+        "Linha Vermelha"
+      ],
+      "destiny": "NTBH"
+    },
+    {
+      "id": 852,
+      "clientId": "1500248470",
+      "orderNumber": 1234515,
+      "unit": "AIM",
+      "orderDate": "17/07/2020",
+      "age": "38",
+      "situation": "Cancelado",
+      "sectors": [
+        "NTO-DLE-SP",
+        "Linha Vermelha"
+      ],
+      "destiny": "NTBH"
+    },
+    {
+      "id": 951,
+      "clientId": "1500248470",
+      "orderNumber": 1234514,
+      "unit": "AIM",
+      "orderDate": "17/07/2020",
+      "age": "38",
+      "situation": "Cancelado",
+      "sectors": [
+        "NTO-DLE-SP",
+        "Linha Vermelha"
+      ],
+      "destiny": "NTBH"
     }
   ],
-  "user": {
-    "id": 1,
-    "name": "Admin",
-    "unitId": 1
-  },
+  "samples": [
+    {
+      "id": "039401302803",
+      "userId": 1,
+      "orderId": 123456
+    }
+  ],
   "units": [
     {
       "id": 1,
@@ -541,5 +546,10 @@
       "id": 10,
       "name": "CAL 10"
     }
-  ]
+  ],
+  "consults": {
+    "orders": [],
+    "samples": [],
+    "clients": []
+  }
 }
