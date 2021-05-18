@@ -20,6 +20,7 @@
       "orderDate": "17/07/2020",
       "age": "38",
       "situation": "Ativo",
+      "sectors": ["NTO-DLE-SP" ,"Linha Vermelha"],
       "destiny": "NTBH",
       "pdf": "https://americalatina.dint.fgv.br/sites/americalatina.dint.fgv.br/files/teste33.pdf"
     },
@@ -31,6 +32,7 @@
       "orderDate": "17/07/2020",
       "age": "38",
       "situation": "Ativo",
+      "sectors": ["NTO-DLE-SP" ,"Linha Vermelha"],
       "destiny": "NTBH",
       "pdf": "https://americalatina.dint.fgv.br/sites/americalatina.dint.fgv.br/files/teste33.pdf"
     },
@@ -42,6 +44,7 @@
       "orderDate": "17/07/2020",
       "age": "38",
       "situation": "Cancelado",
+      "sectors": ["NTO-DLE-SP" ,"Linha Vermelha"],
       "destiny": "NTBH"
     },
     {
@@ -52,6 +55,7 @@
       "orderDate": "17/07/2020",
       "age": "38",
       "situation": "Ativo",
+      "sectors": ["NTO-DLE-SP" ,"Linha Vermelha"],
       "destiny": "NTBH",
       "pdf": "https://americalatina.dint.fgv.br/sites/americalatina.dint.fgv.br/files/teste33.pdf"
     },
@@ -63,6 +67,7 @@
       "orderDate": "17/07/2020",
       "age": "38",
       "situation": "Cancelado",
+      "sectors": ["NTO-DLE-SP" ,"Linha Vermelha"],
       "destiny": "NTBH"
     },
     {
@@ -73,6 +78,7 @@
       "orderDate": "17/07/2020",
       "age": "38",
       "situation": "Cancelado",
+      "sectors": ["NTO-DLE-SP" ,"Linha Vermelha"],
       "destiny": "NTBH"
     },
     {
@@ -83,6 +89,7 @@
       "orderDate": "17/07/2020",
       "age": "38",
       "situation": "Cancelado",
+      "sectors": ["NTO-DLE-SP" ,"Linha Vermelha"],
       "destiny": "NTBH"
     }
   ],
@@ -274,11 +281,19 @@
       "gender": "Feminino",
       "clientCode": 1234567,
       "age": "49",
+      "birthDate": "02/05/1970",
+      "address": "Rua A",
+      "cpf": "078.895.654-89",
+      "phone": "(99) 9999-9292",
       "healthInsurance": {
         "name": "0123 - HP.ATEND.FUNCIONARIO",
         "nameExecutive": "John Doe",
         "phone": "(99) 9999-9191",
-        "email": "user@example.com"
+        "email": "user@example.com",
+        "plan": {
+          "id": 1,
+          "number": "9701966600000880000"
+        }
       }
     },
     {
@@ -288,11 +303,19 @@
       "gender": "Feminino",
       "clientCode": 1234567,
       "age": "49",
+      "birthDate": "02/05/1970",
+      "address": "Rua A",
+      "cpf": "078.895.654-89",
+      "phone": "(99) 9999-9292",
       "healthInsurance": {
         "name": "0123 - HP.ATEND.FUNCIONARIO",
         "nameExecutive": "John Doe",
         "phone": "(99) 9999-9191",
-        "email": "user@example.com"
+        "email": "user@example.com",
+        "plan": {
+          "id": 1,
+          "number": "9701966600000880000"
+        }
       }
     },
     {
@@ -302,11 +325,19 @@
       "gender": "Feminino",
       "clientCode": 1234567,
       "age": "49",
+      "birthDate": "02/05/1970",
+      "address": "Rua A",
+      "cpf": "078.895.654-89",
+      "phone": "(99) 9999-9292",
       "healthInsurance": {
         "name": "0123 - HP.ATEND.FUNCIONARIO",
         "nameExecutive": "John Doe",
         "phone": "(99) 9999-9191",
-        "email": "user@example.com"
+        "email": "user@example.com",
+        "plan": {
+          "id": 1,
+          "number": "9701966600000880000"
+        }
       }
     },
     {
@@ -316,11 +347,19 @@
       "gender": "Feminino",
       "clientCode": 1234567,
       "age": "49",
+      "birthDate": "02/05/1970",
+      "address": "Rua A",
+      "cpf": "078.895.654-89",
+      "phone": "(99) 9999-9292",
       "healthInsurance": {
         "name": "0123 - HP.ATEND.FUNCIONARIO",
         "nameExecutive": "John Doe",
         "phone": "(99) 9999-9191",
-        "email": "user@example.com"
+        "email": "user@example.com",
+        "plan": {
+          "id": 1,
+          "number": "9701966600000880000"
+        }
       }
     },
     {
@@ -330,11 +369,19 @@
       "gender": "Feminino",
       "clientCode": 7654321,
       "age": "70",
+      "birthDate": "02/05/1970",
+      "address": "Rua A",
+      "cpf": "078.895.654-89",
+      "phone": "(99) 9999-9292",
       "healthInsurance": {
         "name": "0123 - HP.ATEND.FUNCIONARIO",
         "nameExecutive": "John Doe",
         "phone": "(99) 9999-9191",
-        "email": "user@example.com"
+        "email": "user@example.com",
+        "plan": {
+          "id": 1,
+          "number": "9701966600000880000"
+        }
       }
     },
     {
@@ -344,11 +391,19 @@
       "gender": "Feminino",
       "clientCode": 1234567,
       "age": "49",
+      "birthDate": "02/05/1970",
+      "address": "Rua A",
+      "cpf": "078.895.654-89",
+      "phone": "(99) 9999-9292",
       "healthInsurance": {
         "name": "0123 - HP.ATEND.FUNCIONARIO",
         "nameExecutive": "John Doe",
         "phone": "(99) 9999-9191",
-        "email": "user@example.com"
+        "email": "user@example.com",
+        "plan": {
+          "id": 1,
+          "number": "9701966600000880000"
+        }
       }
     },
     {
@@ -358,11 +413,19 @@
       "gender": "Feminino",
       "clientCode": 1234567,
       "age": "49",
+      "birthDate": "02/05/1970",
+      "address": "Rua A",
+      "cpf": "078.895.654-89",
+      "phone": "(99) 9999-9292",
       "healthInsurance": {
         "name": "0123 - HP.ATEND.FUNCIONARIO",
         "nameExecutive": "John Doe",
         "phone": "(99) 9999-9191",
-        "email": "user@example.com"
+        "email": "user@example.com",
+        "plan": {
+          "id": 1,
+          "number": "9701966600000880000"
+        }
       }
     }
   ],
