@@ -472,6 +472,207 @@
       "destiny": "NTBH"
     }
   ],
+  "order-exams": [
+    {
+      "id": 1,
+      "orderId": 789,
+      "material": "Aspirado Orofaringe / Nasofaringe",
+      "name": "Diagnóstico Molecular Coronavírus Sars-Cov-2[Cov19]",
+      "situation": "ClinicalBlock",
+      "collectionDate": "2021-05-19T19:29:24.233Z",
+      "productionUnit": "NTBH",
+      "marking": "2021-05-19T19:29:24.233Z",
+      "status": "Conferido",
+      "viewedResult": [
+        {
+          "viewedDate": "2021-05-19T19:29:24.233Z",
+          "viewedThrough": "Via internet",
+          "useWhoViewed": "Ana"
+        },
+        {
+          "viewedDate": "2021-05-19T19:29:24.233Z",
+          "viewedThrough": "Via Web LIS",
+          "useWhoViewed": "Pedro"
+        }
+      ],
+      "lastEvent": "2021-05-19T19:29:24.233Z",
+      "operator": "Ana Maria Rocha",
+      "signed": "Lucio MárioMuller Sctiakoptaz",
+      "doctorId": 1
+    },
+    {
+      "id": 2,
+      "orderId": 789,
+      "material": "Sangue",
+      "name": "Hemograma",
+      "situation": "UrgencyRequest",
+      "note": "Material colhido no laboratório",
+      "collectionDate": "2021-05-19T19:29:24.233Z",
+      "productionUnit": "NTBH",
+      "marking": "2021-05-19T19:29:24.233Z",
+      "status": "Conferido",
+      "viewedResult": [
+        {
+          "viewedDate": "2021-05-19T19:29:24.233Z",
+          "viewedThrough": "Via internet",
+          "useWhoViewed": "Ana"
+        },
+        {
+          "viewedDate": "2021-05-19T19:29:24.233Z",
+          "viewedThrough": "Via Web LIS",
+          "useWhoViewed": "Pedro"
+        }
+      ],
+      "lastEvent": "2021-05-19T19:29:24.233Z",
+      "operator": "Ana Maria Rocha",
+      "doctorId": 1
+    },
+    {
+      "id": 3,
+      "orderId": 789,
+      "material": "Sangue",
+      "name": "Proteína C Funcional",
+      "note": "Material colhido no laboratório",
+      "collectionDate": "2021-05-19T19:29:24.233Z",
+      "productionUnit": "NTBH",
+      "marking": "2021-05-19T19:29:24.233Z",
+      "status": "Conferido",
+      "viewedResult": [
+        {
+          "viewedDate": "2021-05-19T19:29:24.233Z",
+          "viewedThrough": "Via internet",
+          "useWhoViewed": "Ana"
+        },
+        {
+          "viewedDate": "2021-05-19T19:29:24.233Z",
+          "viewedThrough": "Via Web LIS",
+          "useWhoViewed": "Pedro"
+        }
+      ],
+      "lastEvent": "2021-05-19T19:29:24.233Z",
+      "operator": "Ana Maria Rocha",
+      "doctorId": 2
+    },
+    {
+      "id": 4,
+      "orderId": 789,
+      "material": "Sangue",
+      "name": "Fator x da coagulação",
+      "situation": "CriticalResult",
+      "collectionDate": "2021-05-19T19:29:24.233Z",
+      "productionUnit": "NTBH",
+      "marking": "2021-05-19T19:29:24.233Z",
+      "status": "Expedido",
+      "expeditionActions": [
+        {
+          "expeditionDate": "2021-05-19T19:29:24.233Z",
+          "issuedThrough": "Através de B2B"
+        },
+        {
+          "expeditionDate": "2021-05-19T19:29:24.233Z",
+          "issuedThrough": "Download"
+        }
+      ],
+      "lastEvent": "2021-05-19T19:29:24.233Z",
+      "operator": "Ana Maria Rocha",
+      "signed": "Lucio MárioMuller Sctiakoptaz",
+      "doctorId": 1
+    },
+    {
+      "id": 5,
+      "orderId": 789,
+      "material": "Sangue",
+      "name": "Hiv 1 e 2 Pesquisa de Antígeno e Anticorpos",
+      "situation": "ExamRectification",
+      "collectionDate": "2021-05-19T19:29:24.233Z",
+      "productionUnit": "NTBH",
+      "marking": "2021-05-19T19:29:24.233Z",
+      "status": "Expedido",
+      "expeditionActions": [
+        {
+          "expeditionDate": "2021-05-19T19:29:24.233Z",
+          "issuedThrough": "Através de B2B"
+        },
+        {
+          "expeditionDate": "2021-05-19T19:29:24.233Z",
+          "issuedThrough": "Download"
+        }
+      ],
+      "lastEvent": "2021-05-19T19:29:24.233Z",
+      "operator": "Ana Maria Rocha",
+      "signed": "Lucio MárioMuller Sctiakoptaz",
+      "doctorId": 2
+    },
+    {
+      "id": 6,
+      "orderId": 789,
+      "material": "Sangue",
+      "name": "Glicemia Jejum [G]",
+      "situation": "Recollect",
+      "note": "Material colhido no laboratório",
+      "collectionDate": "2021-05-19T19:29:24.233Z",
+      "productionUnit": "NTBH",
+      "marking": "2021-05-19T19:29:24.233Z",
+      "pendingMarking": true,
+      "status": "Expedido",
+      "expeditionActions": [
+        {
+          "expeditionDate": "2021-05-19T19:29:24.233Z",
+          "issuedThrough": "Através de B2B"
+        },
+        {
+          "expeditionDate": "2021-05-19T19:29:24.233Z",
+          "issuedThrough": "Download"
+        }
+      ],
+      "lastEvent": "2021-05-19T19:29:24.233Z",
+      "operator": "Ana Maria Rocha",
+      "signed": "Lucio MárioMuller Sctiakoptaz",
+      "doctorId": 1
+    },
+    {
+      "id": 7,
+      "orderId": 789,
+      "material": "Sangue",
+      "name": "Ácido Úrico [Acu]",
+      "situation": "OriginatingFromAnotherOrder",
+      "originOrderId": 753,
+      "collectionDate": "2021-05-19T19:29:24.233Z",
+      "productionUnit": "NTBH",
+      "marking": "2021-05-19T19:29:24.233Z",
+      "status": "Cadastrado",
+      "lastEvent": "2021-05-19T19:29:24.233Z",
+      "operator": "Ana Maria Rocha",
+      "signed": "Lucio MárioMuller Sctiakoptaz",
+      "doctorId": 2
+    },
+    {
+      "id": 8,
+      "orderId": 789,
+      "material": "Sangue",
+      "name": "Glicose",
+      "situation": "RegisterPA",
+      "collectionDate": "2021-05-19T19:29:24.233Z",
+      "productionUnit": "NTBH",
+      "marking": "2021-05-19T19:29:24.233Z",
+      "status": "Conferido",
+      "viewedResult": [
+        {
+          "viewedDate": "2021-05-19T19:29:24.233Z",
+          "viewedThrough": "Via internet",
+          "useWhoViewed": "Ana"
+        },
+        {
+          "viewedDate": "2021-05-19T19:29:24.233Z",
+          "viewedThrough": "Via Web LIS",
+          "useWhoViewed": "Pedro"
+        }
+      ],
+      "lastEvent": "2021-05-19T19:29:24.233Z",
+      "operator": "Ana Maria Rocha",
+      "doctorId": 1
+    }
+  ],
   "samples": [
     {
       "id": "039401302803",
