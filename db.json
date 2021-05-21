@@ -673,6 +673,94 @@
       "doctorId": 1
     }
   ],
+  "traceability-of-order-exams": [
+    {
+      "orderId": 789,
+      "examId": 2,
+      "name": "Hemograma",
+      "acronyms": "Hg",
+      "sampleNumber": "3",
+      "tag": "Secundária",
+      "ecbNumber": "039401302803",
+      "department": "NTBH",
+      "productionUnit": "NTBH",
+      "destiny": "NTBH",
+      "historic": [
+        {
+          "event": {
+            "number": "99",
+            "description": "Recebimento de VC"
+          },
+          "dateTime": "2021-05-21T17:45:59.429Z",
+          "operador": "Aline Juliane"
+        },
+        {
+          "event": {
+            "number": "70",
+            "description": "Fracionamento (Recepção/Coleta)"
+          },
+          "dateTime": "2021-05-21T17:45:59.429Z",
+          "operador": "Aline Juliane"
+        },
+        {
+          "event": {
+            "number": "140",
+            "description": "Recebida pelo LIS Siemens ADM/Coleta)"
+          },
+          "dateTime": "2021-05-21T17:45:59.429Z",
+          "operador": "%ILO"
+        },
+        {
+          "event": {
+            "number": "71",
+            "description": "Reimpressão de ECB de Identificação/Coleta)"
+          },
+          "dateTime": "2021-05-21T17:45:59.429Z",
+          "operador": "Aline Juliane"
+        },
+        {
+          "event": {
+            "number": "75",
+            "description": "Registro distribuição (Saída)"
+          },
+          "dateTime": "2021-05-21T17:45:59.429Z",
+          "operador": "Aline Juliane"
+        },
+        {
+          "event": {
+            "number": "63",
+            "description": "Enviada ao LIS Siemens ADM"
+          },
+          "dateTime": "2021-05-21T17:45:59.429Z",
+          "operador": "Aline Juliane"
+        },
+        {
+          "event": {
+            "number": "151",
+            "description": "Entrega no STCM"
+          },
+          "dateTime": "2021-05-21T17:45:59.429Z",
+          "operador": "Douglas Willian Ferreira"
+        },
+        {
+          "event": {
+            "number": "90",
+            "description": "Inspeção de recebimento aprovado"
+          },
+          "dateTime": "2021-05-21T17:45:59.429Z",
+          "operador": "Ana Maria Rocha"
+        },
+        {
+          "event": {
+            "number": "110",
+            "description": "Fim da execução"
+          },
+          "dateTime": "2021-05-21T17:45:59.429Z",
+          "operador": "Douglas Willian Ferreira"
+        }
+      ]
+    }
+  ],
   "samples": [
     {
       "id": "039401302803",
