@@ -58,7 +58,8 @@
         {
           "id": 1,
           "name": "Theodoro De Moraes Seixas Neto",
-          "crm": "012880/MG"
+          "crm": "012880/MG",
+          "gender": "Masculino"
         }
       ]
     },
@@ -79,12 +80,14 @@
         {
           "id": 1,
           "name": "Theodoro De Moraes Seixas Neto",
-          "crm": "012880/MG"
+          "crm": "012880/MG",
+          "gender": "Masculino"
         },
         {
           "id": 2,
           "name": "Mário Sampaio",
-          "crm": "918277/SP"
+          "crm": "918277/SP",
+          "gender": "Masculino"
         }
       ]
     },
@@ -109,12 +112,14 @@
         {
           "id": 1,
           "name": "Theodoro De Moraes Seixas Neto",
-          "crm": "012880/MG"
+          "crm": "012880/MG",
+          "gender": "Masculino"
         },
         {
-          "id": 2,
-          "name": "Mário Sampaio",
-          "crm": "918277/SP"
+          "id": 7,
+          "name": "Maria Sampaio",
+          "crm": "918278/SP",
+          "gender": "Feminino"
         }
       ]
     },
@@ -135,12 +140,14 @@
         {
           "id": 1,
           "name": "Theodoro De Moraes Seixas Neto",
-          "crm": "012880/MG"
+          "crm": "012880/MG",
+          "gender": "Masculino"
         },
         {
           "id": 2,
           "name": "Mário Sampaio",
-          "crm": "918277/SP"
+          "crm": "918277/SP",
+          "gender": "Masculino"
         }
       ]
     },
@@ -161,7 +168,8 @@
         {
           "id": 2,
           "name": "Mário Sampaio",
-          "crm": "918277/SP"
+          "crm": "918277/SP",
+          "gender": "Masculino"
         }
       ]
     },
@@ -182,12 +190,14 @@
         {
           "id": 1,
           "name": "Theodoro De Moraes Seixas Neto",
-          "crm": "012880/MG"
+          "crm": "012880/MG",
+          "gender": "Masculino"
         },
         {
           "id": 2,
           "name": "Mário Sampaio",
-          "crm": "918277/SP"
+          "crm": "918277/SP",
+          "gender": "Masculino"
         }
       ]
     },
@@ -205,17 +215,20 @@
         {
           "id": 1,
           "name": "Theodoro De Moraes Seixas Neto",
-          "crm": "012880/MG"
+          "crm": "012880/MG",
+          "gender": "Masculino"
         },
         {
           "id": 2,
           "name": "Mário Sampaio",
-          "crm": "918277/SP"
+          "crm": "918277/SP",
+          "gender": "Masculino"
         },
         {
           "id": 3,
           "name": "Walace Alves",
-          "crm": "12345/MT"
+          "crm": "12345/MT",
+          "gender": "Masculino"
         }
       ]
     }
@@ -497,7 +510,11 @@
       ],
       "lastEvent": "2021-05-19T19:29:24.233Z",
       "operator": "Ana Maria Rocha",
-      "signed": "Lucio MárioMuller Sctiakoptaz",
+      "signed": {
+        "id": 5,
+        "name": "Lucio MárioMuller Sctiakoptaz",
+        "gender": "Masculino"
+      },
       "doctorId": 1
     },
     {
@@ -551,7 +568,7 @@
       ],
       "lastEvent": "2021-05-19T19:29:24.233Z",
       "operator": "Ana Maria Rocha",
-      "doctorId": 2
+      "doctorId": 7
     },
     {
       "id": 4,
@@ -575,7 +592,11 @@
       ],
       "lastEvent": "2021-05-19T19:29:24.233Z",
       "operator": "Ana Maria Rocha",
-      "signed": "Lucio MárioMuller Sctiakoptaz",
+      "signed": {
+        "id": 5,
+        "name": "Lucio MárioMuller Sctiakoptaz",
+        "gender": "Masculino"
+      },
       "doctorId": 1
     },
     {
@@ -600,8 +621,12 @@
       ],
       "lastEvent": "2021-05-19T19:29:24.233Z",
       "operator": "Ana Maria Rocha",
-      "signed": "Lucio MárioMuller Sctiakoptaz",
-      "doctorId": 2
+      "signed": {
+        "id": 5,
+        "name": "Lucio MárioMuller Sctiakoptaz",
+        "gender": "Masculino"
+      },
+      "doctorId": 7
     },
     {
       "id": 6,
@@ -612,7 +637,19 @@
       "note": "Material colhido no laboratório",
       "collectionDate": "2021-05-19T19:29:24.233Z",
       "productionUnit": "NTBH",
-      "marking": "2021-05-19T19:29:24.233Z",
+      "markingTimeLogs": [
+        {
+          "initialDate": "2020-07-17T19:00:33.772Z",
+          "endDate": "2020-07-18T19:40:33.772Z",
+          "operatorName": "BPLUS",
+          "operatorRegistrationDate": "2020-07-17T08:40:33.772Z"
+        },
+        {
+          "initialDate": "2020-07-18T19:00:33.772Z",
+          "operatorName": "BPLUS",
+          "operatorRegistrationDate": "2020-07-15T09:12:33.772Z"
+        }
+      ],
       "pendingMarking": true,
       "status": "Expedido",
       "expeditionActions": [
@@ -627,7 +664,11 @@
       ],
       "lastEvent": "2021-05-19T19:29:24.233Z",
       "operator": "Ana Maria Rocha",
-      "signed": "Lucio MárioMuller Sctiakoptaz",
+      "signed": {
+        "id": 5,
+        "name": "Lucio MárioMuller Sctiakoptaz",
+        "gender": "Masculino"
+      },
       "doctorId": 1
     },
     {
@@ -643,8 +684,12 @@
       "status": "Cadastrado",
       "lastEvent": "2021-05-19T19:29:24.233Z",
       "operator": "Ana Maria Rocha",
-      "signed": "Lucio MárioMuller Sctiakoptaz",
-      "doctorId": 2
+      "signed": {
+        "id": 5,
+        "name": "Marta da Silva",
+        "gender": "Feminino"
+      },
+      "doctorId": 7
     },
     {
       "id": 8,
