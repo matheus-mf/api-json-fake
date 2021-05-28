@@ -121,7 +121,12 @@
           "crm": "918278/SP",
           "gender": "Feminino"
         }
-      ]
+      ],
+      "pdfResult": {
+        "thumbnail": "https://wiki.unify.com/images/thumb/d/d3/Test.pdf/page1-339px-Test.pdf.jpg",
+        "draft": "https://americalatina.dint.fgv.br/sites/americalatina.dint.fgv.br/files/teste33.pdf",
+        "linkToPrintResult": "string"
+      }
     },
     {
       "id": 159,
@@ -716,6 +721,12 @@
       "lastEvent": "2021-05-19T19:29:24.233Z",
       "operator": "Ana Maria Rocha",
       "doctorId": 1
+    }
+  ],
+  "pdf-results": [
+    {
+      "orderId": 789,
+      "pdf": "https://americalatina.dint.fgv.br/sites/americalatina.dint.fgv.br/files/teste33.pdf"
     }
   ],
   "traceability-of-order-exams": [
