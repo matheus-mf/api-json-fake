@@ -729,6 +729,24 @@
       "pdf": "https://americalatina.dint.fgv.br/sites/americalatina.dint.fgv.br/files/teste33.pdf"
     }
   ],
+  "order-attachments": [
+    {
+      "file": "https://i0.wp.com/www.institutoniemeyer.org/wp-content/uploads/2018/09/teste.png",
+      "attachedIn": "2021-05-21T17:45:59.429Z"
+    },
+    {
+      "file": "https://docs.gimp.org/2.10/pt_BR/images/tutorials/quickie-jpeg-example.jpg",
+      "attachedIn": "2021-05-21T17:45:59.429Z"
+    },
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Type_74_Tank_rear.JPEG/1200px-Type_74_Tank_rear.JPEG",
+      "attachedIn": "2021-05-21T17:45:59.429Z"
+    },
+    {
+      "file": "https://media.readthedocs.org/pdf/flask-cors/latest/flask-cors.pdf",
+      "attachedIn": "2021-05-21T17:45:59.429Z"
+    }
+  ],
   "traceability-of-order-exams": [
     {
       "orderId": 789,
