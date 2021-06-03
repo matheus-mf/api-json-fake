@@ -748,35 +748,6 @@
       "wasEliminated": false
     }
   ],
-  "pdf-results": [
-    {
-      "orderId": 789,
-      "pdf": "https://americalatina.dint.fgv.br/sites/americalatina.dint.fgv.br/files/teste33.pdf"
-    }
-  ],
-  "order-attachments": [
-    {
-      "file": "https://i0.wp.com/www.institutoniemeyer.org/wp-content/uploads/2018/09/teste.png",
-      "attachedIn": "2021-05-21T17:45:59.429Z"
-    },
-    {
-      "file": "https://docs.gimp.org/2.10/pt_BR/images/tutorials/quickie-jpeg-example.jpg",
-      "attachedIn": "2021-05-21T17:45:59.429Z"
-    },
-    {
-      "file": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Type_74_Tank_rear.JPEG/1200px-Type_74_Tank_rear.JPEG",
-      "attachedIn": "2021-05-21T17:45:59.429Z"
-    },
-    {
-      "file": "https://media.readthedocs.org/pdf/flask-cors/latest/flask-cors.pdf",
-      "attachedIn": "2021-05-21T17:45:59.429Z"
-    }
-  ],
-  "remove-from-web": [
-    {
-      "reportTakenFromTheWeb": "https://media.readthedocs.org/pdf/flask-cors/latest/flask-cors.pdf"
-    }
-  ],
   "traceability-of-order-exams": [
     {
       "orderId": 789,
@@ -784,7 +755,7 @@
       "name": "Hemograma",
       "acronyms": "Hg",
       "sampleNumber": "3",
-      "tag": "Secundária",
+      "marking": "Secundária",
       "ecbNumber": "039401302803",
       "department": "NTBH",
       "productionUnit": "NTBH",
@@ -871,6 +842,209 @@
           "time": "00:00"
         }
       ]
+    }
+  ],
+  "order-samples-traceability-list": [
+    {
+      "id": 1,
+      "sampleNumber": 1,
+      "description": "Sangue Total Em Edta Plaquetas - Edta",
+      "ecbNumber": "039401302801",
+      "wasEliminated": true
+    },
+    {
+      "id": 2,
+      "sampleNumber": 2,
+      "description": "(Avulsa) Soro",
+      "ecbNumber": "039401302802",
+      "wasEliminated": false
+    },
+    {
+      "id": 3,
+      "sampleNumber": 3,
+      "description": "Aspirado Orofaringe / Nasofaringe",
+      "ecbNumber": "039401302803",
+      "wasEliminated": false
+    }
+  ],
+  "traceability-of-order-samples": [
+    {
+      "orderId": 789,
+      "sampleId": 2,
+      "marking": "Secundária",
+      "ecbNumber": "039401302802",
+      "department": "NTBH",
+      "productionUnit": "NTBH",
+      "destiny": "NTBH",
+      "eliminatedExams": [
+        "Diagnóstico Molecular Coronavírus [Cov19]",
+        "Ferro [FE]"
+      ],
+      "historic": [
+        {
+          "event": {
+            "number": 70,
+            "description": "Fracionamento (Recepção/Coleta)"
+          },
+          "dateTime": "2021-05-21T17:45:59.429Z",
+          "operador": "Aline Juliane",
+          "local": "Coleta",
+          "time": "00:00"
+        },
+        {
+          "event": {
+            "number": 140,
+            "description": "Recebida pelo LIS Siemens ADM/Coleta)"
+          },
+          "dateTime": "2021-05-21T17:45:59.429Z",
+          "operador": "%ILO",
+          "local": "Coleta",
+          "time": "00:00"
+        },
+        {
+          "event": {
+            "number": 71,
+            "description": "Reimpressão de ECB de Identificação/Coleta)"
+          },
+          "dateTime": "2021-05-21T17:45:59.429Z",
+          "operador": "Aline Juliane",
+          "local": "Distribuição (BTN)",
+          "time": "00:00"
+        },
+        {
+          "event": {
+            "number": 75,
+            "description": "Registro distribuição (Saída)"
+          },
+          "dateTime": "2021-05-21T17:45:59.429Z",
+          "operador": "Aline Juliane",
+          "local": "Setor Técnico (NTBG)",
+          "time": "00:00"
+        },
+        {
+          "event": {
+            "number": 63,
+            "description": "Enviada ao LIS Siemens ADM"
+          },
+          "dateTime": "2021-05-21T17:45:59.429Z",
+          "operador": "Aline Juliane",
+          "local": "Setor Técnico (NTBG)",
+          "time": "00:20"
+        },
+        {
+          "event": {
+            "number": 151,
+            "description": "Entrega no STCM"
+          },
+          "dateTime": "2021-05-21T17:45:59.429Z",
+          "operador": "Douglas Willian Ferreira",
+          "local": "Setor Técnico",
+          "time": "150:00"
+        },
+        {
+          "event": {
+            "number": 90,
+            "description": "Inspeção de recebimento aprovado"
+          },
+          "dateTime": "2021-05-21T17:45:59.429Z",
+          "operador": "Ana Maria Rocha",
+          "local": "Setor Técnico",
+          "time": "20:00"
+        },
+        {
+          "event": {
+            "number": 0,
+            "description": "Glicemia Jejum [G]"
+          },
+          "operador": "ALINITY_HQ_NTBH2#HQ00240"
+        },
+        {
+          "event": {
+            "number": 110,
+            "description": "Fim da execução"
+          },
+          "dateTime": "2021-05-21T17:45:59.429Z",
+          "operador": "Douglas Willian Ferreira",
+          "local": "Setor Técnico",
+          "time": "00:00"
+        },
+        {
+          "event": {
+            "number": 120,
+            "description": "Fim da execução"
+          },
+          "dateTime": "2021-05-21T17:45:59.429Z",
+          "operador": "Douglas Willian Ferreira",
+          "local": "Setor Técnico",
+          "time": "00:00"
+        },
+        {
+          "event": {
+            "number": 140,
+            "description": "Fim da execução"
+          },
+          "dateTime": "2021-05-21T17:45:59.429Z",
+          "operador": "Douglas Willian Ferreira",
+          "local": "Setor Técnico",
+          "time": "00:00"
+        },
+        {
+          "event": {
+            "number": 0,
+            "description": "Ácido Úrico [Acu]"
+          },
+          "operador": "ALINITY_HQ_NTBH2#HQ00240"
+        },
+        {
+          "event": {
+            "number": 70,
+            "description": "Fim da execução"
+          },
+          "dateTime": "2021-05-21T17:45:59.429Z",
+          "operador": "Douglas Willian Ferreira",
+          "local": "Setor Técnico",
+          "time": "00:00"
+        },
+        {
+          "event": {
+            "number": -1,
+            "description": "Amostra eliminada"
+          },
+          "dateTime": "2021-05-21T17:45:59.429Z",
+          "operador": "Douglas Willian Ferreira",
+          "local": "Coleta",
+          "time": "00:06"
+        }
+      ]
+    }
+  ],
+  "pdf-results": [
+    {
+      "orderId": 789,
+      "pdf": "https://americalatina.dint.fgv.br/sites/americalatina.dint.fgv.br/files/teste33.pdf"
+    }
+  ],
+  "order-attachments": [
+    {
+      "file": "https://i0.wp.com/www.institutoniemeyer.org/wp-content/uploads/2018/09/teste.png",
+      "attachedIn": "2021-05-21T17:45:59.429Z"
+    },
+    {
+      "file": "https://docs.gimp.org/2.10/pt_BR/images/tutorials/quickie-jpeg-example.jpg",
+      "attachedIn": "2021-05-21T17:45:59.429Z"
+    },
+    {
+      "file": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Type_74_Tank_rear.JPEG/1200px-Type_74_Tank_rear.JPEG",
+      "attachedIn": "2021-05-21T17:45:59.429Z"
+    },
+    {
+      "file": "https://media.readthedocs.org/pdf/flask-cors/latest/flask-cors.pdf",
+      "attachedIn": "2021-05-21T17:45:59.429Z"
+    }
+  ],
+  "remove-from-web": [
+    {
+      "reportTakenFromTheWeb": "https://media.readthedocs.org/pdf/flask-cors/latest/flask-cors.pdf"
     }
   ],
   "samples": [
