@@ -1049,9 +1049,22 @@
   ],
   "samples": [
     {
-      "id": "039401302803",
-      "userId": 1,
-      "orderId": 123456
+      "id": 1,
+      "ecbNumber": "039401302801",
+      "clientId": 1,
+      "orderId": 789
+    },
+    {
+      "id": 2,
+      "ecbNumber": "039401302802",
+      "clientId": 1,
+      "orderId": 789
+    },
+    {
+      "id": 3,
+      "ecbNumber": "039401302803",
+      "clientId": 1,
+      "orderId": 789
     }
   ],
   "units": [
