@@ -723,6 +723,71 @@
       "doctorId": 1
     }
   ],
+  "inclusions-and-exclusions": [
+    {
+      "orderId": 789,
+      "data": [
+        {
+          "type": "Inclusion",
+          "newOrder": {
+            "id": 123,
+            "orderNumber": "1713730",
+            "situation": "Ativo",
+            "status": "Aguardando"
+          },
+          "exams": [
+            {
+              "id": 1,
+              "material": "Sangue",
+              "name": "Treponema Pallidum, Pesquisa De Anticorpos Igg",
+              "collectionDate": "2021-06-04T21:27:38.183Z",
+              "situation": "Resolvido"
+            },
+            {
+              "id": 2,
+              "material": "Sangue",
+              "name": "T4 Livre",
+              "collectionDate": "2021-06-04T21:27:38.183Z",
+              "situation": "Ativo"
+            }
+          ]
+        },
+        {
+          "type": "Inclusion",
+          "exams": [
+            {
+              "id": 1,
+              "material": "Sangue",
+              "name": "IGE - IGE Total",
+              "collectionDate": "2021-06-04T21:27:38.183Z",
+              "situation": "Resolvido"
+            }
+          ]
+        },
+        {
+          "type": "Exclusion",
+          "exams": [
+            {
+              "id": 1,
+              "material": "Sangue",
+              "name": "IGE - IGE Total",
+              "despise": false,
+              "giveBack": false,
+              "situation": "Resolvido"
+            },
+            {
+              "id": 2,
+              "material": "Sangue",
+              "name": "IGE - IGE Total",
+              "despise": true,
+              "giveBack": true,
+              "situation": "Resolvido"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "order-exams-traceability-list": [
     {
       "id": 1,
