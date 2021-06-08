@@ -125,7 +125,7 @@
       "pdfResult": {
         "thumbnail": "https://wiki.unify.com/images/thumb/d/d3/Test.pdf/page1-339px-Test.pdf.jpg",
         "draft": "https://americalatina.dint.fgv.br/sites/americalatina.dint.fgv.br/files/teste33.pdf",
-        "linkToPrintResult": "string"
+        "isAbleToPrintTheResult": true
       }
     },
     {
@@ -721,6 +721,107 @@
       "lastEvent": "2021-05-19T19:29:24.233Z",
       "operator": "Ana Maria Rocha",
       "doctorId": 1
+    }
+  ],
+  "order-exam-clinical-block": [
+    {
+      "id": 1,
+      "name": "Hemograma",
+      "client": {
+        "id": 155,
+        "name": "Ana Maria lima",
+        "phone": "47999999999"
+      },
+      "doctor": {
+        "id": 1563,
+        "name": "Theodoro De Moraes Seixas Neto",
+        "crm": "012880/MG",
+        "gender": "Masculino"
+      },
+      "clinicalBlockRecord": [
+        {
+          "id": 1,
+          "reason": "Resultado não esperado",
+          "action": "Contato cliente (paciente/médico)",
+          "actionDetails": "Sem histórico de TTP alterado. Tentar contato",
+          "acronym": "FTPN",
+          "dateTime": "2021-06-08T17:12:29.745Z"
+        },
+        {
+          "id": 2,
+          "reason": "Resultado não esperado",
+          "action": "Contato cliente (paciente/médico)",
+          "actionDetails": "Até o momento, não consegui contato pelo telefone cadastrado.",
+          "acronym": "FTPN",
+          "dateTime": "2021-06-08T17:12:29.745Z"
+        },
+        {
+          "id": 3,
+          "reason": "Resultado não esperado",
+          "action": "Contato cliente (paciente/médico)",
+          "actionDetails": "Segundo a área técnica, amostra com aspecto OK! Continuar tentando contato.",
+          "acronym": "FTPN",
+          "dateTime": "2021-06-08T17:12:29.745Z"
+        },
+        {
+          "id": 4,
+          "reason": "Resultado não esperado",
+          "action": "Contato cliente (paciente/médico)",
+          "actionDetails": "Sem sucesso no contato no noturno",
+          "acronym": "FTPN",
+          "dateTime": "2021-06-08T17:12:29.745Z"
+        },
+        {
+          "id": 5,
+          "reason": "Resultado não esperado",
+          "action": "Contato cliente (paciente/médico)",
+          "actionDetails": "Nova tentativa de contato sem sucesso.",
+          "acronym": "FTPN",
+          "dateTime": "2021-06-08T17:12:29.745Z"
+        },
+        {
+          "id": 6,
+          "reason": "Resultado não esperado",
+          "action": "Contato cliente (paciente/médico)",
+          "actionDetails": "Aguardando contato",
+          "acronym": "FTPN",
+          "dateTime": "2021-06-08T17:12:29.745Z"
+        }
+      ]
+    }
+  ],
+  "order-exam-clinical-unblock": [
+    {
+      "id": 1,
+      "examId": 1,
+      "reason": "Solicitação de recoleta sem contato com o cliente",
+      "justification": "Tentativas de contato sem sucesso",
+      "acronym": "FTPN",
+      "dateTime": "2021-06-08T17:18:46.892Z"
+    },
+    {
+      "id": 2,
+      "examId": 1,
+      "reason": "Solicitação de recoleta sem contato com o cliente",
+      "justification": "Tentativas de contato sem sucesso",
+      "acronym": "FTPN",
+      "dateTime": "2021-06-08T17:18:46.892Z"
+    },
+    {
+      "id": 3,
+      "examId": 1,
+      "reason": "Solicitação de recoleta sem contato com o cliente",
+      "justification": "Tentativas de contato sem sucesso",
+      "acronym": "FTPN",
+      "dateTime": "2021-06-08T17:18:46.892Z"
+    },
+    {
+      "id": 4,
+      "examId": 1,
+      "reason": "Contato efetivado com o cliente",
+      "justification": "Fiz contato com o médico da paciente, que ´e o pai, informando do achado em hemograma. Criança apresenta hematomas e por isso está fazendo esses exames. Informei a ele sobre a global de leucócitos e a plaquetopenia que foram visualizados 85% de Blastose que na tentativa de antecipar o diagnóstico está em andamento o teste de imunofenotipagem em sg periférico.",
+      "acronym": "FTPN",
+      "dateTime": "2021-06-08T17:18:46.892Z"
     }
   ],
   "inclusions-and-exclusions": [
