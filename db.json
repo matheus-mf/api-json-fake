@@ -824,6 +824,61 @@
       "dateTime": "2021-06-08T17:18:46.892Z"
     }
   ],
+  "order-exam-critical-result": [
+    {
+      "id": 4,
+      "name": "Fator x da coagulação",
+      "client": {
+        "id": 456,
+        "name": "Ana Maria lima",
+        "phone": "47999999999"
+      },
+      "doctor": {
+        "id": 1563,
+        "name": "Theodoro De Moraes Seixas Neto",
+        "crm": "012880/MG",
+        "gender": "Masculino"
+      },
+      "criticalResultRecord": [
+        {
+          "id": 1,
+          "event": "Registrado Resultado Crítico",
+          "dateTime": "2021-06-09T17:35:05.705Z",
+          "operator": "Barbara Nuccitelli",
+          "duration": "00:01:20",
+          "accumulatedTime": "01m 54s"
+        },
+        {
+          "id": 2,
+          "event": "Contato efetuado sem sucesso",
+          "dateTime": "2021-06-09T17:35:05.705Z",
+          "operator": "Barbara Nuccitelli",
+          "duration": "00:01:20",
+          "accumulatedTime": "01m 54s"
+        },
+        {
+          "id": 3,
+          "event": "Comunicação Finalizada",
+          "dateTime": "2021-06-09T17:35:05.705Z",
+          "operator": "Barbara Nuccitelli",
+          "duration": "00:01:20",
+          "accumulatedTime": "01m 54s"
+        }
+      ]
+    }
+  ],
+  "order-exam-critical-result-contacts": [
+    {
+      "id": 1,
+      "examId": 4,
+      "note": "Contato realizado com o pai - registro de crítico em aberto para anotação o do próximo contato informando o resultado",
+      "contact": "Dr. Frederico (pai)",
+      "phone": "47999999999",
+      "dateTime": "2021-06-09T17:42:07.159Z",
+      "operator": "Barbara Nuccitelli",
+      "contactSuccessfully": false
+    }
+  ],
   "inclusions-and-exclusions": [
     {
       "orderId": 789,
