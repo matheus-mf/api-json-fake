@@ -824,6 +824,7 @@
       "dateTime": "2021-06-08T17:18:46.892Z"
     }
   ],
+  "order-exam-clinical-unblock-other-contact-records": [],
   "order-exam-critical-result": [
     {
       "id": 4,
@@ -1354,6 +1355,38 @@
     {
       "id": 10,
       "name": "CAL 10"
+    }
+  ],
+  "reasons-other-contact-records-clinical-unblocking": [
+    {
+      "id": "1",
+      "description": "Amostra hemolisada",
+      "codeReason": 1
+    },
+    {
+      "id": "2",
+      "description": "Amostra lipemica",
+      "codeReason": 2
+    },
+    {
+      "id": "3",
+      "description": "Quantidade ou volume inuficiente",
+      "codeReason": 3
+    },
+    {
+      "id": "4",
+      "description": "Presença de microcoagulo macrocoagulo",
+      "codeReason": 4
+    },
+    {
+      "id": "5",
+      "description": "Bla bla",
+      "codeReason": 5
+    },
+    {
+      "id": "14",
+      "description": "Confirmação do resultado",
+      "codeReason": 14
     }
   ],
   "consults": {
