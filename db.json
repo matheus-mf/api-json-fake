@@ -846,24 +846,29 @@
           "event": "Registrado Resultado Crítico",
           "dateTime": "2021-06-09T17:35:05.705Z",
           "operator": "Barbara Nuccitelli",
-          "duration": "00:01:20",
-          "accumulatedTime": "01m 54s"
+          "duration": "00:00:00:00"
         },
         {
           "id": 2,
           "event": "Contato efetuado sem sucesso",
           "dateTime": "2021-06-09T17:35:05.705Z",
           "operator": "Barbara Nuccitelli",
-          "duration": "00:01:20",
-          "accumulatedTime": "01m 54s"
+          "duration": "00:00:03:00"
         },
         {
           "id": 3,
+          "event": "Contato efetuado sem sucesso",
+          "dateTime": "2021-06-09T17:35:05.705Z",
+          "operator": "Barbara Nuccitelli",
+          "duration": "00:03:05:10"
+        },
+        {
+          "id": 4,
           "event": "Comunicação Finalizada",
           "dateTime": "2021-06-09T17:35:05.705Z",
           "operator": "Barbara Nuccitelli",
-          "duration": "00:01:20",
-          "accumulatedTime": "01m 54s"
+          "duration": "00:00:00:00",
+          "accumulatedTime": "3h 08m 10s"
         }
       ]
     }
