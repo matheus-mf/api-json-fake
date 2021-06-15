@@ -738,7 +738,7 @@
         "crm": "012880/MG",
         "gender": "Masculino"
       },
-      "clinicalBlockRecord": [
+      "clinicalBlockRecords": [
         {
           "id": 1,
           "reason": "Resultado não esperado",
@@ -840,7 +840,7 @@
         "crm": "012880/MG",
         "gender": "Masculino"
       },
-      "criticalResultRecord": [
+      "criticalResultRecords": [
         {
           "id": 1,
           "event": "Registrado Resultado Crítico",
@@ -882,6 +882,59 @@
       "phone": "47999999999",
       "dateTime": "2021-06-09T17:42:07.159Z",
       "operator": "Barbara Nuccitelli",
+      "contactSuccessfully": false
+    }
+  ],
+  "order-exam-recollect": [
+    {
+      "id": 6,
+      "name": "Glicemia Jejum [G]",
+      "client": {
+        "id": 456,
+        "name": "Ana Maria lima",
+        "phone": "47999999999"
+      },
+      "doctor": {
+        "id": 1563,
+        "name": "Theodoro De Moraes Seixas Neto",
+        "crm": "012880/MG",
+        "gender": "Masculino"
+      },
+      "historicVC": [
+        {
+          "id": "1",
+          "local": "Recepcao (VDN)",
+          "event": "Recebimento de VC",
+          "dateTime": "2021-06-15T17:33:13.488Z",
+          "operator": "Patricia Barbosa"
+        },
+        {
+          "id": "2",
+          "local": "Pre-Distribuição (VDN)",
+          "event": "Definição de VC",
+          "dateTime": "2021-06-15T17:33:13.488Z",
+          "operator": "Kally Oliveira"
+        },
+        {
+          "id": "3",
+          "local": "Recepcao (VDN)",
+          "event": "Recebimento de VC",
+          "dateTime": "2021-06-15T17:33:13.488Z",
+          "operator": "Kally Oliveira"
+        }
+      ]
+    }
+  ],
+  "order-exam-recollect-contacts": [
+    {
+      "id": "1",
+      "examId": 6,
+      "reason": "14 - CONFIRMAÇÃO DO RESULTADO",
+      "note": "Atentar para fatores pré analíticos",
+      "contact": "Dr. Frederico (pai)",
+      "phone": "47999999999",
+      "operator": "Patricia Barbosa",
+      "dateTime": "2021-06-15T17:36:57.387Z",
       "contactSuccessfully": false
     }
   ],
