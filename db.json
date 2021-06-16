@@ -496,7 +496,7 @@
       "orderId": 789,
       "material": "Aspirado Orofaringe / Nasofaringe",
       "name": "Diagnóstico Molecular Coronavírus Sars-Cov-2[Cov19]",
-      "situation": "ClinicalBlock",
+      "situations": ["ClinicalBlock","CriticalResult"],
       "collectionDate": "2021-05-19T19:29:24.233Z",
       "productionUnit": "NTBH",
       "marking": "2021-05-19T19:29:24.233Z",
@@ -527,7 +527,7 @@
       "orderId": 789,
       "material": "Sangue",
       "name": "Hemograma",
-      "situation": "UrgencyRequest",
+      "situations": ["UrgencyRequest"],
       "note": "Material colhido no laboratório",
       "collectionDate": "2021-05-19T19:29:24.233Z",
       "productionUnit": "NTBH",
@@ -580,7 +580,7 @@
       "orderId": 789,
       "material": "Sangue",
       "name": "Fator x da coagulação",
-      "situation": "CriticalResult",
+      "situations": ["CriticalResult"],
       "collectionDate": "2021-05-19T19:29:24.233Z",
       "productionUnit": "NTBH",
       "marking": "2021-05-19T19:29:24.233Z",
@@ -609,7 +609,7 @@
       "orderId": 789,
       "material": "Sangue",
       "name": "Hiv 1 e 2 Pesquisa de Antígeno e Anticorpos",
-      "situation": "ExamRectification",
+      "situations": ["ExamRectification"],
       "collectionDate": "2021-05-19T19:29:24.233Z",
       "productionUnit": "NTBH",
       "marking": "2021-05-19T19:29:24.233Z",
@@ -638,7 +638,7 @@
       "orderId": 789,
       "material": "Sangue",
       "name": "Glicemia Jejum [G]",
-      "situation": "Recollect",
+      "situations": ["Recollect"],
       "note": "Material colhido no laboratório",
       "collectionDate": "2021-05-19T19:29:24.233Z",
       "productionUnit": "NTBH",
@@ -681,7 +681,7 @@
       "orderId": 789,
       "material": "Sangue",
       "name": "Ácido Úrico [Acu]",
-      "situation": "OriginatingFromAnotherOrder",
+      "situations": ["OriginatingFromAnotherOrder"],
       "originOrderId": 753,
       "collectionDate": "2021-05-19T19:29:24.233Z",
       "productionUnit": "NTBH",
@@ -701,7 +701,7 @@
       "orderId": 789,
       "material": "Sangue",
       "name": "Glicose",
-      "situation": "RegisterPA",
+      "situations": ["RegisterPA"],
       "collectionDate": "2021-05-19T19:29:24.233Z",
       "productionUnit": "NTBH",
       "marking": "2021-05-19T19:29:24.233Z",
@@ -827,6 +827,52 @@
   "order-exam-clinical-unblock-other-contact-records": [],
   "order-exam-critical-result": [
     {
+      "id": 1,
+      "name": "Aspirado Orofaringe / Nasofaringe",
+      "client": {
+        "id": 456,
+        "name": "Ana Maria lima",
+        "phone": "47999999999"
+      },
+      "doctor": {
+        "id": 1563,
+        "name": "Theodoro De Moraes Seixas Neto",
+        "crm": "012880/MG",
+        "gender": "Masculino"
+      },
+      "criticalResultRecords": [
+        {
+          "id": 1,
+          "event": "Registrado Resultado Crítico",
+          "dateTime": "2021-06-09T17:35:05.705Z",
+          "operator": "Barbara Nuccitelli",
+          "duration": "00:00:00:00"
+        },
+        {
+          "id": 2,
+          "event": "Contato efetuado sem sucesso",
+          "dateTime": "2021-06-09T17:35:05.705Z",
+          "operator": "Barbara Nuccitelli",
+          "duration": "00:00:03:00"
+        },
+        {
+          "id": 3,
+          "event": "Contato efetuado sem sucesso",
+          "dateTime": "2021-06-09T17:35:05.705Z",
+          "operator": "Barbara Nuccitelli",
+          "duration": "00:03:05:10"
+        },
+        {
+          "id": 4,
+          "event": "Comunicação Finalizada",
+          "dateTime": "2021-06-09T17:35:05.705Z",
+          "operator": "Barbara Nuccitelli",
+          "duration": "00:00:00:00",
+          "accumulatedTime": "3h 08m 10s"
+        }
+      ]
+    },
+    {
       "id": 4,
       "name": "Fator x da coagulação",
       "client": {
@@ -923,6 +969,32 @@
           "operator": "Kally Oliveira"
         }
       ]
+    }
+  ],
+  "order-exam-alternative-procedures": [
+    {
+      "id": "1",
+      "code": "1.11",
+      "description": "Erros de digitação no cadastro de dados demográficos",
+      "openingDate": "2021-06-16",
+      "openingSector": {
+        "code": 363,
+        "name": "UNIDADE VENDA NOVA"
+      },
+      "disposition": "H - CORRIGIR FICHA PARA ADEQUAÇÃO",
+      "detailing": "Incluir exames de urina"
+    },
+    {
+      "id": "2",
+      "code": "1.13",
+      "description": "erro do cadastro dos exames",
+      "openingDate": "2021-06-16",
+      "openingSector": {
+        "code": 363,
+        "name": "UNIDADE VENDA NOVA"
+      },
+      "disposition": "H - CORRIGIR FICHA PARA ADEQUAÇÃO",
+      "detailing": "Corrigir exame de glicose"
     }
   ],
   "order-exam-recollect-contacts": [
