@@ -122,6 +122,7 @@
           "gender": "Feminino"
         }
       ],
+      "sampleCollectionNotPerformedByHPardini": true,
       "pdfResult": {
         "thumbnail": "https://wiki.unify.com/images/thumb/d/d3/Test.pdf/page1-339px-Test.pdf.jpg",
         "draft": "https://americalatina.dint.fgv.br/sites/americalatina.dint.fgv.br/files/teste33.pdf",
@@ -496,7 +497,10 @@
       "orderId": 789,
       "material": "Aspirado Orofaringe / Nasofaringe",
       "name": "Diagnóstico Molecular Coronavírus Sars-Cov-2[Cov19]",
-      "situations": ["ClinicalBlock","CriticalResult"],
+      "situations": [
+        "ClinicalBlock",
+        "CriticalResult"
+      ],
       "collectionDate": "2021-05-19T19:29:24.233Z",
       "productionUnit": "NTBH",
       "marking": "2021-05-19T19:29:24.233Z",
@@ -527,7 +531,9 @@
       "orderId": 789,
       "material": "Sangue",
       "name": "Hemograma",
-      "situations": ["UrgencyRequest"],
+      "situations": [
+        "UrgencyRequest"
+      ],
       "note": "Material colhido no laboratório",
       "collectionDate": "2021-05-19T19:29:24.233Z",
       "productionUnit": "NTBH",
@@ -580,7 +586,9 @@
       "orderId": 789,
       "material": "Sangue",
       "name": "Fator x da coagulação",
-      "situations": ["CriticalResult"],
+      "situations": [
+        "CriticalResult"
+      ],
       "collectionDate": "2021-05-19T19:29:24.233Z",
       "productionUnit": "NTBH",
       "marking": "2021-05-19T19:29:24.233Z",
@@ -609,7 +617,9 @@
       "orderId": 789,
       "material": "Sangue",
       "name": "Hiv 1 e 2 Pesquisa de Antígeno e Anticorpos",
-      "situations": ["ExamRectification"],
+      "situations": [
+        "ExamRectification"
+      ],
       "collectionDate": "2021-05-19T19:29:24.233Z",
       "productionUnit": "NTBH",
       "marking": "2021-05-19T19:29:24.233Z",
@@ -638,7 +648,9 @@
       "orderId": 789,
       "material": "Sangue",
       "name": "Glicemia Jejum [G]",
-      "situations": ["Recollect"],
+      "situations": [
+        "Recollect"
+      ],
       "note": "Material colhido no laboratório",
       "collectionDate": "2021-05-19T19:29:24.233Z",
       "productionUnit": "NTBH",
@@ -681,7 +693,9 @@
       "orderId": 789,
       "material": "Sangue",
       "name": "Ácido Úrico [Acu]",
-      "situations": ["OriginatingFromAnotherOrder"],
+      "situations": [
+        "OriginatingFromAnotherOrder"
+      ],
       "originOrderId": 753,
       "collectionDate": "2021-05-19T19:29:24.233Z",
       "productionUnit": "NTBH",
@@ -701,7 +715,9 @@
       "orderId": 789,
       "material": "Sangue",
       "name": "Glicose",
-      "situations": ["RegisterPA"],
+      "situations": [
+        "RegisterPA"
+      ],
       "collectionDate": "2021-05-19T19:29:24.233Z",
       "productionUnit": "NTBH",
       "marking": "2021-05-19T19:29:24.233Z",
@@ -824,7 +840,26 @@
       "dateTime": "2021-06-08T17:18:46.892Z"
     }
   ],
-  "order-exam-clinical-unblock-other-contact-records": [],
+  "order-exam-clinical-unblock-other-contact-records": [
+    {
+      "id": "f6701f24-22ae-4592-bfc6-fba55c474658",
+      "examId": 1,
+      "reasonId": "4",
+      "reason": "4 - Presença de microcoagulo macrocoagulo",
+      "justification": "bhbjhbh",
+      "operator": "BPlus",
+      "dateTime": "2021-06-17T17:26:00.000Z"
+    },
+    {
+      "id": "ef4c38e2-ca8f-47bb-b8b7-1fc83957b6a5",
+      "examId": 1,
+      "reasonId": "4",
+      "reason": "4 - Presença de microcoagulo macrocoagulo",
+      "justification": "jnjasjbjadsaui",
+      "operator": "BPlus",
+      "dateTime": "2021-06-17T17:26:00.000Z"
+    }
+  ],
   "order-exam-critical-result": [
     {
       "id": 1,
@@ -995,6 +1030,66 @@
       },
       "disposition": "H - CORRIGIR FICHA PARA ADEQUAÇÃO",
       "detailing": "Corrigir exame de glicose"
+    },
+    {
+      "id": "1",
+      "code": "1.11",
+      "description": "Erros de digitação no cadastro de dados demográficos",
+      "openingDate": "2021-06-16",
+      "openingSector": {
+        "code": 363,
+        "name": "UNIDADE VENDA NOVA"
+      },
+      "disposition": "H - CORRIGIR FICHA PARA ADEQUAÇÃO",
+      "detailing": "Incluir exames de urina"
+    },
+    {
+      "id": "2",
+      "code": "1.13",
+      "description": "erro do cadastro dos exames",
+      "openingDate": "2021-06-16",
+      "openingSector": {
+        "code": 363,
+        "name": "UNIDADE VENDA NOVA"
+      },
+      "disposition": "H - CORRIGIR FICHA PARA ADEQUAÇÃO",
+      "detailing": "Corrigir exame de glicose"
+    },
+    {
+      "id": "2",
+      "code": "1.13",
+      "description": "erro do cadastro dos exames",
+      "openingDate": "2021-06-16",
+      "openingSector": {
+        "code": 363,
+        "name": "UNIDADE VENDA NOVA"
+      },
+      "disposition": "H - CORRIGIR FICHA PARA ADEQUAÇÃO",
+      "detailing": "Corrigir exame de glicose"
+    },
+    {
+      "id": "1",
+      "code": "1.11",
+      "description": "Erros de digitação no cadastro de dados demográficos",
+      "openingDate": "2021-06-16",
+      "openingSector": {
+        "code": 363,
+        "name": "UNIDADE VENDA NOVA"
+      },
+      "disposition": "H - CORRIGIR FICHA PARA ADEQUAÇÃO",
+      "detailing": "Incluir exames de urina"
+    },
+    {
+      "id": "2",
+      "code": "1.13",
+      "description": "erro do cadastro dos exames",
+      "openingDate": "2021-06-16",
+      "openingSector": {
+        "code": 363,
+        "name": "UNIDADE VENDA NOVA"
+      },
+      "disposition": "H - CORRIGIR FICHA PARA ADEQUAÇÃO",
+      "detailing": "Corrigir exame de glicose"
     }
   ],
   "order-exam-recollect-contacts": [
@@ -1078,26 +1173,26 @@
   "order-exams-traceability-list": [
     {
       "id": 1,
-      "name": "Hemograma",
-      "acronyms": "Hg",
+      "examName": "Hemograma",
+      "examAcronyms": "Hg",
       "sampleNumber": 1,
-      "description": "Sangue Total Em Edta Plaquetas - Edta",
-      "wasEliminated": true
+      "sampleDescription": "Sangue Total Em Edta Plaquetas - Edta",
+      "sampleWasEliminated": true
     },
     {
       "id": 2,
-      "name": "Glicemia jejum",
-      "acronyms": "g",
+      "examName": "Glicemia jejum",
+      "examAcronyms": "g",
       "sampleNumber": 2,
-      "description": "(Avulso) Sangue",
-      "wasEliminated": false
+      "sampleDescription": "(Avulso) Sangue",
+      "sampleWasEliminated": false
     },
     {
       "id": 3,
-      "name": "Proteína C Funcional",
+      "examName": "Proteína C Funcional",
       "sampleNumber": 3,
-      "description": "Sangue Total Em Edta Plaquetas - Edta",
-      "wasEliminated": false
+      "sampleDescription": "Sangue Total Em Edta Plaquetas - Edta",
+      "sampleWasEliminated": false
     }
   ],
   "traceability-of-order-exams": [
