@@ -1614,9 +1614,43 @@
       "codeReason": 14
     }
   ],
-  "consults": {
-    "orders": [],
-    "samples": [],
-    "clients": []
-  }
+  "consults": [
+    {
+      "typeOfConsult": "Clients",
+      "research": "Maria",
+      "data": [
+        {
+          "id": "1500248470",
+          "name": "Maria Da Silva",
+          "cpf": "078.895.654-89",
+          "age": "49"
+        },
+        {
+          "id": "1500248480",
+          "name": "Maria Da Silva Pereira",
+          "cpf": "078.895.654-90",
+          "age": "70"
+        }
+      ]
+    },
+    {
+      "typeOfConsult": "Order",
+      "research": "1234569",
+      "data": {
+        "id": 789,
+        "clientId": "1500248470",
+        "orderNumber": 1234569
+      }
+    },
+    {
+      "typeOfConsult": "Samples",
+      "research": "039401302802",
+      "data": {
+        "id": 2,
+        "ecbNumber": "039401302802",
+        "clientId": 1,
+        "orderId": 789
+      }
+    }
+  ]
 }
