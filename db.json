@@ -1547,6 +1547,70 @@
     {
       "id": 10,
       "name": "51 BKS"
+    },
+    {
+      "id": 111,
+      "name": "1107 PAM"
+    },
+    {
+      "id": 112,
+      "name": "1103 PE"
+    },
+    {
+      "id": 113,
+      "name": "1144 PXII"
+    },
+    {
+      "id": 114,
+      "name": "1147 PDII"
+    },
+    {
+      "id": 115,
+      "name": "1148 PLTO"
+    },
+    {
+      "id": 118,
+      "name": "1149 QWR1149 QWR1149 QWR"
+    },
+    {
+      "id": 119,
+      "name": "1150 AWE"
+    },
+    {
+      "id": 1110,
+      "name": "1151 BKS"
+    },
+    {
+      "id": 221,
+      "name": "2207 PAM"
+    },
+    {
+      "id": 222,
+      "name": "2203 PE"
+    },
+    {
+      "id": 223,
+      "name": "2244 PXII"
+    },
+    {
+      "id": 224,
+      "name": "2247 PDII"
+    },
+    {
+      "id": 225,
+      "name": "2248 PLTO"
+    },
+    {
+      "id": 228,
+      "name": "2249 QWR"
+    },
+    {
+      "id": 229,
+      "name": "2250 AWE"
+    },
+    {
+      "id": 2210,
+      "name": "2251 BKS"
     }
   ],
   "cals": [
@@ -1587,7 +1651,7 @@
     {
       "id": "1",
       "description": "Amostra hemolisada",
-      "codeReason": 1
+      "codeReason": 11
     },
     {
       "id": "2",
@@ -1610,9 +1674,129 @@
       "codeReason": 5
     },
     {
+      "id": "6",
+      "description": "Bla bla",
+      "codeReason": 6
+    },
+    {
+      "id": "7",
+      "description": "Bla bla",
+      "codeReason": 7
+    },
+    {
+      "id": "8",
+      "description": "Bla bla",
+      "codeReason": 8
+    },
+    {
+      "id": "9",
+      "description": "Bla bla",
+      "codeReason": 9
+    },
+    {
+      "id": "10",
+      "description": "Bla bla",
+      "codeReason": 10
+    },
+    {
+      "id": "11",
+      "description": "Bla bla",
+      "codeReason": 11
+    },
+    {
+      "id": "12",
+      "description": "Bla bla",
+      "codeReason": 12
+    },
+    {
+      "id": "13",
+      "description": "Bla bla",
+      "codeReason": 13
+    },
+    {
       "id": "14",
       "description": "Confirmação do resultado",
       "codeReason": 14
+    },
+    {
+      "id": "15",
+      "description": "Bla bla",
+      "codeReason": 15
+    },
+    {
+      "id": "111",
+      "description": "Amostra hemolisada",
+      "codeReason": 111
+    },
+    {
+      "id": "112",
+      "description": "Amostra lipemica",
+      "codeReason": 112
+    },
+    {
+      "id": "113",
+      "description": "Quantidade 11ou volume inuficiente",
+      "codeReason": 113
+    },
+    {
+      "id": "114",
+      "description": "Presença de microcoagulo macrocoagulo",
+      "codeReason": 114
+    },
+    {
+      "id": "115",
+      "description": "Bla bla",
+      "codeReason": 115
+    },
+    {
+      "id": "116",
+      "description": "Bla bla",
+      "codeReason": 116
+    },
+    {
+      "id": "117",
+      "description": "Bla bla",
+      "codeReason": 117
+    },
+    {
+      "id": "118",
+      "description": "Bla bla",
+      "codeReason": 118
+    },
+    {
+      "id": "119",
+      "description": "Bla bla",
+      "codeReason": 119
+    },
+    {
+      "id": "1110",
+      "description": "Bla bla",
+      "codeReason": 1110
+    },
+    {
+      "id": "1111",
+      "description": "Bla bla",
+      "codeReason": 1111
+    },
+    {
+      "id": "1112",
+      "description": "Bla bla",
+      "codeReason": 1112
+    },
+    {
+      "id": "1113",
+      "description": "Bla bla",
+      "codeReason": 1113
+    },
+    {
+      "id": "1114",
+      "description": "Confirmação do resultado",
+      "codeReason": 1114
+    },
+    {
+      "id": "1115",
+      "description": "Bla bla",
+      "codeReason": 1115
     }
   ],
   "consults": [
