@@ -53,15 +53,7 @@
       "status": "Aguardando",
       "requestedResultByWeb": true,
       "orderNumberInConveniado": "1234566549",
-      "contractBidding": "Bla bla bla",
-      "doctors": [
-        {
-          "id": 1,
-          "name": "Theodoro De Moraes Seixas Neto",
-          "crm": "012880/MG",
-          "gender": "Masculino"
-        }
-      ]
+      "contractBidding": "Bla bla bla"
     },
     {
       "id": 456,
@@ -75,21 +67,7 @@
       "status": "Urgentíssimo",
       "requestedResultByWeb": true,
       "orderNumberInConveniado": "1321546578",
-      "contractBidding": "Bla bla bla",
-      "doctors": [
-        {
-          "id": 1,
-          "name": "Theodoro De Moraes Seixas Neto",
-          "crm": "012880/MG",
-          "gender": "Masculino"
-        },
-        {
-          "id": 2,
-          "name": "Mário Sampaio",
-          "crm": "918277/SP",
-          "gender": "Masculino"
-        }
-      ]
+      "contractBidding": "Bla bla bla"
     },
     {
       "id": 789,
@@ -108,68 +86,6 @@
         "nameUserMadeCancellation": "BPlus",
         "cancellationDate": "2021-05-17T19:30:37.598Z"
       },
-      "doctors": [
-        {
-          "id": 1,
-          "name": "1 Theodoro De Moraes Seixas Neto De Moraes Seixas Neto",
-          "crm": "012880/MG",
-          "gender": "Masculino"
-        },
-        {
-          "id": 2,
-          "name": "2 Maria Sampaio",
-          "crm": "918278/SP",
-          "gender": "Feminino"
-        },
-        {
-          "id": 3,
-          "name": "3 Theodoro De Moraes Seixas Neto",
-          "crm": "012880/MG",
-          "gender": "Masculino"
-        },
-        {
-          "id": 4,
-          "name": "4 Maria Sampaio",
-          "crm": "918278/SP",
-          "gender": "Feminino"
-        },
-        {
-          "id": 5,
-          "name": "5 Maria Sampaio",
-          "crm": "918278/SP",
-          "gender": "Feminino"
-        },
-        {
-          "id": 6,
-          "name": "6 Theodoro De Moraes Seixas Neto",
-          "crm": "012880/MG",
-          "gender": "Masculino"
-        },
-        {
-          "id": 7,
-          "name": "7 Maria Sampaio",
-          "crm": "918278/SP",
-          "gender": "Feminino"
-        },
-        {
-          "id": 8,
-          "name": "8 Maria Sampaio",
-          "crm": "918278/SP",
-          "gender": "Feminino"
-        },
-        {
-          "id": 9,
-          "name": "9 Theodoro De Moraes Seixas Neto",
-          "crm": "012880/MG",
-          "gender": "Masculino"
-        },
-        {
-          "id": 10,
-          "name": "10 Maria Sampaio",
-          "crm": "918278/SP",
-          "gender": "Feminino"
-        }
-      ],
       "sampleCollectionNotPerformedByHPardini": true,
       "wasTheReportRemovedFromTheWeb": false,
       "pdfResult": {
@@ -190,21 +106,7 @@
       "status": "CAC",
       "requestedResultByWeb": true,
       "orderNumberInConveniado": "357158624",
-      "contractBidding": "Bla bla bla",
-      "doctors": [
-        {
-          "id": 1,
-          "name": "Theodoro De Moraes Seixas Neto",
-          "crm": "012880/MG",
-          "gender": "Masculino"
-        },
-        {
-          "id": 2,
-          "name": "Mário Sampaio",
-          "crm": "918277/SP",
-          "gender": "Masculino"
-        }
-      ]
+      "contractBidding": "Bla bla bla"
     },
     {
       "id": 753,
@@ -218,15 +120,7 @@
       "status": "Normal",
       "requestedResultByWeb": true,
       "orderNumberInConveniado": "987159562",
-      "contractBidding": "Bla bla bla",
-      "doctors": [
-        {
-          "id": 2,
-          "name": "Mário Sampaio",
-          "crm": "918277/SP",
-          "gender": "Masculino"
-        }
-      ]
+      "contractBidding": "Bla bla bla"
     },
     {
       "id": 852,
@@ -240,21 +134,7 @@
       "status": "Normal",
       "requestedResultByWeb": true,
       "orderNumberInConveniado": "321654987",
-      "contractBidding": "Bla bla bla",
-      "doctors": [
-        {
-          "id": 1,
-          "name": "Theodoro De Moraes Seixas Neto",
-          "crm": "012880/MG",
-          "gender": "Masculino"
-        },
-        {
-          "id": 2,
-          "name": "Mário Sampaio",
-          "crm": "918277/SP",
-          "gender": "Masculino"
-        }
-      ]
+      "contractBidding": "Bla bla bla"
     },
     {
       "id": 951,
@@ -265,27 +145,69 @@
       "attendant": "Renata Gomes Santos",
       "situation": "Ativo",
       "status": "Normal",
-      "requestedResultByWeb": false,
-      "doctors": [
-        {
-          "id": 1,
-          "name": "Theodoro De Moraes Seixas Neto",
-          "crm": "012880/MG",
-          "gender": "Masculino"
-        },
-        {
-          "id": 2,
-          "name": "Mário Sampaio",
-          "crm": "918277/SP",
-          "gender": "Masculino"
-        },
-        {
-          "id": 3,
-          "name": "Walace Alves",
-          "crm": "12345/MT",
-          "gender": "Masculino"
-        }
-      ]
+      "requestedResultByWeb": false
+    }
+  ],
+  "doctors": [
+    {
+      "id": 1,
+      "name": "1 Theodoro De Moraes Seixas Neto De Moraes Seixas Neto",
+      "crm": "012880/MG",
+      "gender": "Masculino"
+    },
+    {
+      "id": 2,
+      "name": "2 Maria Sampaio",
+      "crm": "918278/SP",
+      "gender": "Feminino"
+    },
+    {
+      "id": 3,
+      "name": "3 Theodoro De Moraes Seixas Neto",
+      "crm": "012880/MG",
+      "gender": "Masculino"
+    },
+    {
+      "id": 4,
+      "name": "4 Maria Sampaio",
+      "crm": "918278/SP",
+      "gender": "Feminino"
+    },
+    {
+      "id": 5,
+      "name": "5 Maria Sampaio",
+      "crm": "918278/SP",
+      "gender": "Feminino"
+    },
+    {
+      "id": 6,
+      "name": "6 Theodoro De Moraes Seixas Neto",
+      "crm": "012880/MG",
+      "gender": "Masculino"
+    },
+    {
+      "id": 7,
+      "name": "7 Maria Sampaio",
+      "crm": "918278/SP",
+      "gender": "Feminino"
+    },
+    {
+      "id": 8,
+      "name": "8 Maria Sampaio",
+      "crm": "918278/SP",
+      "gender": "Feminino"
+    },
+    {
+      "id": 9,
+      "name": "9 Theodoro De Moraes Seixas Neto",
+      "crm": "012880/MG",
+      "gender": "Masculino"
+    },
+    {
+      "id": 10,
+      "name": "10 Maria Sampaio",
+      "crm": "918278/SP",
+      "gender": "Feminino"
     }
   ],
   "orders-client": [
